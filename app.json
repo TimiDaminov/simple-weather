@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "weather-app",
+    "name": "SW",
     "slug": "weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,13 +20,18 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "simpleweather.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da54355e-1400-4cee-9d22-cff5e17aca28"
+      }
     }
   }
 }
