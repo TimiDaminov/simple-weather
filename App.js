@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { useFonts } from "expo-font";
 import useDebounce from "./hooks/useDebounce";
 import * as SplashScreen from "expo-splash-screen";
-import { LinearGradient } from "expo-linear-gradient";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
